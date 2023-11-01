@@ -1,3 +1,26 @@
+* {
+  outline: 1px solid red;
+}
 body {
   background: blanchedalmond;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.a, .c {
+  height: 5%;
+  background: rgb(80, 27, 141);
+  flex-grow: 1;
+  margin: 4px;
+}
+.b {
+  height: 40%;
+  background: rgb(107, 107, 45);
+  flex-grow: 3;
+  min-height: 70vh;
+  margin: 4px;
+  /* align-items: center;
+  justify-content: space-between; */
 }
