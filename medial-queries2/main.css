@@ -1,22 +1,79 @@
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 body {
   background: papayawhip;
-  
-}
-.container{
-  
-  /* flex-direction: column; */
-  
-}
-.a {
   display: flex;
-  height: 2em;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid;
+  flex-direction: column;
+  height: 100vh;
   margin: 10px;
+  /* border: 1px solid black; */
+}
+.head{
+  margin: 3px;
+  height: 100%;
+  border: 1px solid black;
+}
+.b {
+  margin: 3px;
+  height: 100%;
+  border: 1px solid black;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+.c {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  margin: 4px;
+}
+.d {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  margin: 4px;
+}
+.e {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  margin: 4px;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.f {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  margin: px;
+}
+/* .c, .d, .e {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  border: 1px solid black;
+} */
+
+/* .a {
+  width: 100%;
+  border: 1px solid black;
+  
 }
 .b {
   display: flex;
@@ -35,7 +92,7 @@ body {
 }
 
 .c{
-  margin-left: 54px;
+  margin-left: 45%;
 }
 
 .f {
@@ -46,3 +103,21 @@ body {
   border: 1px solid;
   margin: 10px;
 }
+
+
+@media (min-width: 600px){
+  .f {
+    outline: 4px solid green;
+    flex-grow: 1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body {
+    background: papayawhip;
+    outline: 1px solid rgb(38, 0, 255);
+    width: 80%;
+  }
+  
+} */
